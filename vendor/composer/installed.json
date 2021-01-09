@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "157f0afca823c7439a62e314018aaacd",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.0",
+            "version_normalized": "6.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
@@ -33,12 +28,14 @@
             "suggest": {
                 "psr/log": "Required for using the Log middleware"
             },
+            "time": "2017-06-22T18:50:49+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "6.2-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -69,11 +66,12 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-06-22T18:50:49+00:00"
+            "install-path": "../guzzlehttp/guzzle"
         },
         {
             "name": "guzzlehttp/promises",
             "version": "v1.3.1",
+            "version_normalized": "1.3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
@@ -91,12 +89,14 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.0"
             },
+            "time": "2016-12-20T10:07:11+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.4-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "GuzzleHttp\\Promise\\": "src/"
@@ -120,11 +120,12 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20T10:07:11+00:00"
+            "install-path": "../guzzlehttp/promises"
         },
         {
             "name": "guzzlehttp/psr7",
             "version": "1.4.2",
+            "version_normalized": "1.4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
@@ -146,12 +147,14 @@
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
             },
+            "time": "2017-03-20T17:10:46+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.4-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "GuzzleHttp\\Psr7\\": "src/"
@@ -185,11 +188,12 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20T17:10:46+00:00"
+            "install-path": "../guzzlehttp/psr7"
         },
         {
             "name": "laminas/laminas-diactoros",
             "version": "2.5.0",
+            "version_normalized": "2.5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
@@ -228,6 +232,7 @@
                 "phpspec/prophecy-phpunit": "^2.0",
                 "phpunit/phpunit": "^9.1"
             },
+            "time": "2020-11-18T18:39:28+00:00",
             "type": "library",
             "extra": {
                 "laminas": {
@@ -235,6 +240,7 @@
                     "module": "Laminas\\Diactoros"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions/create_uploaded_file.php",
@@ -285,11 +291,12 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-11-18T18:39:28+00:00"
+            "install-path": "../laminas/laminas-diactoros"
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
             "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
@@ -308,12 +315,14 @@
                 "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1 || ^9.3",
                 "squizlabs/php_codesniffer": "^3.5"
             },
+            "time": "2020-09-14T14:23:00+00:00",
             "type": "library",
             "extra": {
                 "laminas": {
                     "module": "Laminas\\ZendFrameworkBridge"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/autoload.php"
@@ -345,11 +354,12 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-09-14T14:23:00+00:00"
+            "install-path": "../laminas/laminas-zendframework-bridge"
         },
         {
             "name": "psr/http-factory",
             "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
@@ -365,12 +375,14 @@
                 "php": ">=7.0.0",
                 "psr/http-message": "^1.0"
             },
+            "time": "2019-04-30T12:38:16+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -400,11 +412,12 @@
             "support": {
                 "source": "https://github.com/php-fig/http-factory/tree/master"
             },
-            "time": "2019-04-30T12:38:16+00:00"
+            "install-path": "../psr/http-factory"
         },
         {
             "name": "psr/http-message",
             "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -419,12 +432,14 @@
             "require": {
                 "php": ">=5.3.0"
             },
+            "time": "2016-08-06T14:39:51+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -450,11 +465,12 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "install-path": "../psr/http-message"
         },
         {
             "name": "symfony/deprecation-contracts",
             "version": "v2.2.0",
+            "version_normalized": "2.2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -469,6 +485,7 @@
             "require": {
                 "php": ">=7.1"
             },
+            "time": "2020-09-07T11:33:47+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -479,6 +496,7 @@
                     "url": "https://github.com/symfony/contracts"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "function.php"
@@ -517,11 +535,12 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-07T11:33:47+00:00"
+            "install-path": "../symfony/deprecation-contracts"
         },
         {
             "name": "symfony/http-foundation",
             "version": "v5.2.1",
+            "version_normalized": "5.2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -548,7 +567,9 @@
             "suggest": {
                 "symfony/mime": "To use the file extension guesser"
             },
+            "time": "2020-12-18T10:00:10+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\HttpFoundation\\": ""
@@ -590,11 +611,12 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-18T10:00:10+00:00"
+            "install-path": "../symfony/http-foundation"
         },
         {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.22.0",
+            "version_normalized": "1.22.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -612,6 +634,7 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
+            "time": "2021-01-07T16:49:33+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -622,6 +645,7 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Polyfill\\Mbstring\\": ""
@@ -670,11 +694,12 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "install-path": "../symfony/polyfill-mbstring"
         },
         {
             "name": "symfony/polyfill-php80",
             "version": "v1.22.0",
+            "version_normalized": "1.22.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -689,6 +714,7 @@
             "require": {
                 "php": ">=7.1"
             },
+            "time": "2021-01-07T16:49:33+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -699,6 +725,7 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Polyfill\\Php80\\": ""
@@ -753,11 +780,12 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "install-path": "../symfony/polyfill-php80"
         },
         {
             "name": "symfony/psr-http-message-bridge",
             "version": "v1.3.0",
+            "version_normalized": "1.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/psr-http-message-bridge.git",
@@ -782,12 +810,14 @@
             "suggest": {
                 "nyholm/psr7": "For a super lightweight PSR-7/17 implementation"
             },
+            "time": "2019-11-25T19:33:50+00:00",
             "type": "symfony-bridge",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.3-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Bridge\\PsrHttpMessage\\": ""
@@ -822,16 +852,9 @@
                 "issues": "https://github.com/symfony/psr-http-message-bridge/issues",
                 "source": "https://github.com/symfony/psr-http-message-bridge/tree/master"
             },
-            "time": "2019-11-25T19:33:50+00:00"
+            "install-path": "../symfony/psr-http-message-bridge"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "dev": true,
+    "dev-package-names": []
 }

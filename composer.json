@@ -15,12 +15,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "tabrizadmin\\Smsirlaravel\\": "src"
+            "tabrizadmin\\smsirlaravel\\": "src"
         }
     },
     "require": {
         "guzzlehttp/guzzle": "^6.0.0|^7.0.0",
-        "zendframework/zend-diactoros" : "1.*.*",
-        "symfony/psr-http-message-bridge" : "1.*.*"
+        "symfony/psr-http-message-bridge" : "1.*.*",
+        "laminas/laminas-diactoros": "^2.5"
     }
 }
