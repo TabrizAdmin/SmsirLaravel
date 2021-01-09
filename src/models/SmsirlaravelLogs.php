@@ -1,6 +1,6 @@
 <?php
 
-namespace Ipecompany\Smsirlaravel;
+namespace tabrizadmin\smsirlaravel;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -13,8 +13,8 @@ class SmsirlaravelLogs extends Model
 		if($this->status){
 			return '<i class="fa fa-check-circle" aria-hidden="true" style="color: green"></i>';
 		}
-		
+
 		return '<i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red"></i>';
-		
+
 	}
 }

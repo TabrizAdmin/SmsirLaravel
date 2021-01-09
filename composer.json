@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ipecompany\\Smsirlaravel\\": "src"
+            "tabrizadmin\\Smsirlaravel\\": "src"
         }
     },
     "require": {

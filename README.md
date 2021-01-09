@@ -2,10 +2,10 @@
 
 <p align="center">Official Laravel Package for sms.ir</p>
 
-[![Latest Stable Version](https://poser.pugx.org/ipecompany/smsirlaravel/v/stable)](https://packagist.org/packages/ipecompany/smsirlaravel)
-[![Total Downloads](https://poser.pugx.org/ipecompany/smsirlaravel/downloads)](https://packagist.org/packages/ipecompany/smsirlaravel)
-[![Monthly Downloads](https://poser.pugx.org/ipecompany/smsirlaravel/d/monthly)](https://packagist.org/packages/ipecompany/smsirlaravel)
-[![License](https://poser.pugx.org/ipecompany/smsirlaravel/license)](https://packagist.org/packages/ipecompany/smsirlaravel)
+[![Latest Stable Version](https://poser.pugx.org/tabrizadmin/smsirlaravel/v/stable)](https://packagist.org/packages/tabrizadmin/smsirlaravel)
+[![Total Downloads](https://poser.pugx.org/tabrizadmin/smsirlaravel/downloads)](https://packagist.org/packages/tabrizadmin/smsirlaravel)
+[![Monthly Downloads](https://poser.pugx.org/tabrizadmin/smsirlaravel/d/monthly)](https://packagist.org/packages/tabrizadmin/smsirlaravel)
+[![License](https://poser.pugx.org/tabrizadmin/smsirlaravel/license)](https://packagist.org/packages/tabrizadmin/smsirlaravel)
 
 
 
@@ -28,10 +28,10 @@ How to install:
 > **Setup:**
 
 add this line to your app.php providers:
-ipecompany\smsirlaravel\SmsirlaravelServiceProvider::class,
+tabrizadmin\smsirlaravel\SmsirlaravelServiceProvider::class,
 
 and add this line to your app.php aliases:
-'Smsirlaravel' => ipecompany\smsirlaravel\SmsirlaravelFacade::class,
+'Smsirlaravel' => tabrizadmin\smsirlaravel\SmsirlaravelFacade::class,
 
 
 > After publish the package files you must open smsirlaravel.php in config folder and set the api-key, secret-key and your sms line number.
