@@ -1,6 +1,6 @@
 <?php
 
-namespace tabrizadmin\smsirlaravel;
+namespace tabrizadmin\smsirlaravel\models;
 
 use Illuminate\Database\Eloquent\Model;
 

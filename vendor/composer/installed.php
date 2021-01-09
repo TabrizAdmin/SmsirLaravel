@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '0ffc5b9fd2bd2d654119c96069a65b474519ad3f',
+    'reference' => 'ac75b7faa64bb55003e9039c1e1dc6f50cc28365',
     'name' => 'tabrizadmin/smsirlaravel',
   ),
   'versions' => 
@@ -126,12 +126,12 @@
     ),
     'symfony/psr-http-message-bridge' => 
     array (
-      'pretty_version' => 'v1.3.0',
-      'version' => '1.3.0.0',
+      'pretty_version' => 'v2.0.2',
+      'version' => '2.0.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '9d3e80d54d9ae747ad573cad796e8e247df7b796',
+      'reference' => '51a21cb3ba3927d4b4bf8f25cc55763351af5f2e',
     ),
     'tabrizadmin/smsirlaravel' => 
     array (
@@ -140,7 +140,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '0ffc5b9fd2bd2d654119c96069a65b474519ad3f',
+      'reference' => 'ac75b7faa64bb55003e9039c1e1dc6f50cc28365',
     ),
     'zendframework/zend-diactoros' => 
     array (

@@ -20,7 +20,7 @@
     },
     "require": {
         "guzzlehttp/guzzle": "^6.0.0|^7.0.0",
-        "symfony/psr-http-message-bridge" : "1.*.*",
-        "laminas/laminas-diactoros": "^2.5"
+        "laminas/laminas-diactoros": "^2.5",
+        "symfony/psr-http-message-bridge": "^2.0"
     }
 }

@@ -4,7 +4,7 @@ namespace tabrizadmin\smsirlaravel\Controllers;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Route;
 use tabrizadmin\smsirlaravel\Smsirlaravel;
-use tabrizadmin\smsirlaravel\SmsirlaravelLogs;
+use tabrizadmin\smsirlaravel\models\SmsirlaravelLogs;
 
 
 class SmsirlaravelController extends Controller
