@@ -21,7 +21,7 @@ Hi, if you have an account in sms.ir, you can use this package for laravel
 How to install:
 -------------
 
-    composer require ipecompany/smsirlaravel
+    composer require tabrizadmin/smsirlaravel:dev-master
     php artisan vendor:publish
     php artisan migrate
 
@@ -35,7 +35,7 @@ and add this line to your app.php aliases:
 
 
 > After publish the package files you must open smsirlaravel.php in config folder and set the api-key, secret-key and your sms line number.
-> 
+>
 
 > **Like this:**
 
@@ -43,7 +43,7 @@ and add this line to your app.php aliases:
 	'api-key' => env('SMSIR-API-KEY','Your sms.ir api key'),
 	'secret-key' => env('SMSIR-SECRET-KEY','Your sms.ir secret key'),
 	'line-number' => env('SMSIR-LINE-NUMBER','Your sms.ir line number'
-> 
+>
 > Note:
 
 you can set the keys and line number in your .env file
@@ -84,4 +84,3 @@ Methods:
 > Smsirlaravel::getSentMessages();
 
 > Smsirlaravel::getReceivedMessages();
-
