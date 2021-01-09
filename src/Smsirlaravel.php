@@ -1,6 +1,7 @@
 <?php
 
 namespace tabrizadmin\smsirlaravel;
+use tabrizadmin\smsirlaravel\models\SmsirlaravelLogs;
 use GuzzleHttp\Client;
 
 class Smsirlaravel
@@ -263,7 +264,7 @@ class Smsirlaravel
 		return json_decode($result->getBody()->getContents())->Messages;
 	}
 
-	
+
 	/**
 	 * @param $mobile = The mobile number of that user who you wanna to delete it
 	 *
