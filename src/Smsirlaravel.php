@@ -218,14 +218,18 @@ class Smsirlaravel
 	 */
 	public static function ultraFastSend(array $parameters, $template_id, $number) {
 		$params = [];
+		$message = "";
+
 		foreach ($parameters as $key => $value) {
 			$params[] = ['Parameter' => $key, 'ParameterValue' => $value];
+			$message .= $key.": ".$value.", ";
 		}
+
 		$client = new Client();
 		$body   = ['ParameterArray' => $params,'TemplateId' => $template_id,'Mobile' => $number];
 		$result = $client->post(config('smsirlaravel.webservice-url').'api/UltraFastSend',['json'=>$body,'headers'=>['x-sms-ir-secure-token'=>self::getToken()],'connect_timeout'=>30]);
 
-		self::DBlog($result,$body,$number);
+		self::DBlog($result,$message,$number);
 
 		return json_decode($result->getBody(),true);
 	}
