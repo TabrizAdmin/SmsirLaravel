@@ -18,6 +18,16 @@
             "tabrizadmin\\smsirlaravel\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "tabrizadmin\\smsirlaravel\\SmsirlaravelServiceProvider"
+            ],
+            "aliases": {
+                "Smsirlaravel" : "tabrizadmin\\smsirlaravel\\SmsirlaravelFacade"
+            }
+        }
+    },
     "require": {
         "guzzlehttp/guzzle": "^6.0.0|^7.0.0",
         "laminas/laminas-diactoros": "^2.5",

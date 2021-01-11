@@ -27,7 +27,7 @@ How to install:
 
 > **Setup:**
 
-add this line to your app.php providers:
+If you are under laravel 6 add this line to your app.php providers:
 tabrizadmin\smsirlaravel\SmsirlaravelServiceProvider::class,
 
 and add this line to your app.php aliases:
