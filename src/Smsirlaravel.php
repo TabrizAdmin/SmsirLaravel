@@ -19,6 +19,10 @@ class Smsirlaravel
 			if (!is_array($numbers)) {
 				$numbers = array($numbers);
 			}
+			if (!is_array($messages)) {
+				$messages = array($messages);
+			}
+
 			$res = json_decode($result->getBody()->getContents(),true);
 
 			if(count($messages) == 1) {
