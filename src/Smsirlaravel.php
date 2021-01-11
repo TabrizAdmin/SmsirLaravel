@@ -225,7 +225,12 @@ class Smsirlaravel
 		$body   = ['ParameterArray' => $params,'TemplateId' => $template_id,'Mobile' => $number];
 		$result = $client->post(config('smsirlaravel.webservice-url').'api/UltraFastSend',['json'=>$body,'headers'=>['x-sms-ir-secure-token'=>self::getToken()],'connect_timeout'=>30]);
 
-		self::DBlog($result,$body,$number);
+		$message = "";
+		foreach ($body as $key => $value) {
+			$message .= $key.": ".$value.", ";
+		}
+
+		self::DBlog($result,$message,$number);
 
 		return json_decode($result->getBody(),true);
 	}
